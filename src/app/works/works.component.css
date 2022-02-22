@@ -14,4 +14,16 @@
   position: absolute;
   right: 0px;
 }
+
+.nav-tabs .nav-item:hover {
+  background-color: gray;
+}
+
+.nav-tabs [data-toggle] {
+  color: #008000;
+  border-top-color: #dee2e6;
+  border-right-color: #dee2e6;
+  border-bottom-color: white;
+  border-left-color: #dee2e6;
+}
 /*# sourceMappingURL=works.component.css.map */
