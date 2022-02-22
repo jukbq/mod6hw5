@@ -1,0 +1,19 @@
+app/
+     components/
+        header.component
+      pages/
+        home.component
+        mod6hw1.component
+        mod6hw2.component
+        mod6hw3.component
+        mod6hw4.component
+     shared/
+        styles/
+            _variables.scss
+            _mixins.scss
+            _base.scss
+        interfaces/
+        pipes/
+        guards/
+        services/
+   

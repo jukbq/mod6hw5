@@ -1,0 +1,17 @@
+.nav-tabs {
+  width: 100vw;
+  height: 7vh;
+  background-color: #eee8e05e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.nav-tabs .bacl_home {
+  position: absolute;
+  right: 0px;
+}
+/*# sourceMappingURL=works.component.css.map */

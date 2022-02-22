@@ -1,0 +1,57 @@
+section {
+  width: 100vw;
+  height: 80vh;
+  background-color: #eeefef6e;
+  margin-top: 80px;
+}
+
+section .task {
+  width: 90vw;
+  height: auto;
+  margin: auto;
+}
+
+section .task .inputBlock {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .task .inputBlock input {
+  width: 80%;
+}
+
+section .task .inputBlock button {
+  width: 15%;
+}
+
+section .task .editBlock {
+  width: 83%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #80808047;
+}
+
+section .task .editBlock input {
+  width: 50%;
+  height: 40px;
+}
+
+section .task .editBlock button {
+  width: 15%;
+  height: 40px;
+  margin: 0 43px 0 20px;
+}
+/*# sourceMappingURL=mod6hw3.component.css.map */

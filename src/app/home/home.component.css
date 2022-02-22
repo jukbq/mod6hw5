@@ -1,0 +1,67 @@
+.home_page {
+  width: 100vw;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home_page .wprk_block {
+  width: 22vw;
+  height: 40vh;
+  border: 1px solid #80808073;
+  border-radius: 5px;
+}
+
+.home_page .wprk_block .body_block {
+  width: 100%;
+  height: 60%;
+  position: relative;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home_page .wprk_block .title {
+  color: #ff0000;
+  text-align: center;
+  font-weight: 600;
+}
+
+.home_page .wprk_block .batton_block {
+  width: 100%;
+  height: 25%;
+  border-top: 1px solid #80808073;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home_page .wprk_block .batton_block a {
+  width: 80%;
+  height: 60%;
+}
+
+.home_page :nth-child(1) .body_block {
+  background-image: url(../images/hw1.png);
+}
+
+.home_page :nth-child(2) .body_block {
+  background-image: url(../images/hw2.png);
+}
+
+.home_page :nth-child(3) .body_block {
+  background-image: url(../images/hw3.png);
+}
+/*# sourceMappingURL=home.component.css.map */

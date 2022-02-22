@@ -1,0 +1,12 @@
+<div class="home_page">
+
+    <div *ngFor="let arr of workArr" class="wprk_block">
+        <div class="body_block"> </div>
+        <p class="title">{{this.arr.name}}</p>
+        <div class="batton_block">
+            <a [routerLink]="[ this.arr.link]" type="button" class="btn btn-success">details</a>
+        </div>
+
+
+    </div>
+</div>

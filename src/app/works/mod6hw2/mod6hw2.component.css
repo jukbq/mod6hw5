@@ -1,0 +1,49 @@
+.form_box {
+  width: 100vw;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 50px 20px 0 20px;
+}
+
+.form_box form {
+  width: 45vw;
+}
+
+.form_box form .ng-valid {
+  border-left: 5px solid green;
+}
+
+.form_box form .ng-invalid {
+  border-left: 5px solid maroon;
+}
+
+.form_box form .btn {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.form_box table {
+  width: 45vw;
+}
+
+.form_box table tr {
+  height: 50px;
+}
+
+.btn-warning {
+  width: 90%;
+  background-color: #ffa500;
+}
+
+.btn-danger {
+  width: 90%;
+  background-color: #fb0707;
+}
+/*# sourceMappingURL=mod6hw2.component.css.map */

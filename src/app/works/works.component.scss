@@ -1,0 +1,11 @@
+.nav-tabs {
+    width: 100vw;
+    height: 7vh;
+    background-color: #eee8e05e;
+    display: flex;
+    align-items: flex-end;
+    .bacl_home {
+        position: absolute;
+        right: 0px;
+    }
+}

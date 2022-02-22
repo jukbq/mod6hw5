@@ -1,0 +1,39 @@
+section {
+    width: 100vw;
+    height: 80vh;
+    background-color: #eeefef6e;
+    margin-top: 80px;
+    .task {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        .inputBlock {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            input {
+                width: 80%;
+            }
+            button {
+                width: 15%;
+            }
+        }
+        .editBlock {
+            width: 83%;
+            height: 70px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            background-color: #80808047;
+            input {
+                width: 50%;
+                height: 40px;
+            }
+            button {
+                width: 15%;
+                height: 40px;
+                margin: 0 43px 0 20px;
+            }
+        }
+    }
+}
